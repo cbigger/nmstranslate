@@ -1,8 +1,15 @@
 import pandas as pd
 import numpy as np
 import csv, re, io, datetime, dateutil
+import argparse
 
-file = open("G:\Watchtower\\vykeenlanguagetable.txt", "r")
+# add a cli --help argument and a mandatory file argument
+parser = argparse.ArgumentParser()
+parser.add_argument("LanguageFile", help="the path to the .txt file you want to use")
+args = parser.parse_args()
+
+
+file = open(args.LanguageFile, "r")
 rip = file.read()
 file.close()
 
