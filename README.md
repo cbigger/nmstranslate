@@ -8,3 +8,5 @@ Currently, as I am using pandas to create a csv, the program spits out the trans
 Goal is to complete the command-line translator and then make a discord bot which will allow real-time translation right in discord chat.
 
 usage: python translator.py /path/to/LanguageFile.txt
+
+requires pandas
