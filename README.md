@@ -3,7 +3,10 @@ Python3 command-line translator for the various languages in No Man's Sky
 
 ISSUES:
 
-Doesn't clearly show when a word is not found, occasionally making it hard to figure out which part of the sentence may be missing. SHITTY FIX DONE
+Need to add reverse translation ie. alien --> english
+
+Doesn't clearly show when a word is not found, occasionally making it hard to figure out which part of the sentence may be missing. 
+(SHITTY FIX DONE)
 
 Repo includes a text rip of the table from the fandom wiki (just google "gek/korvax/vykeen language") which includes ~700 words translated into three different "dialects":
 
