@@ -5,6 +5,8 @@ ISSUES:
 
 Need to add reverse translation ie. alien --> english
 
+Need to change output to be strings only, not the full pandas object vomit (currently working on this)
+
 Doesn't clearly show when a word is not found, occasionally making it hard to figure out which part of the sentence may be missing. 
 (SHITTY FIX DONE)
 
