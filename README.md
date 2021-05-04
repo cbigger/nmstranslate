@@ -3,7 +3,7 @@ Python3 command-line translator for the various languages in No Man's Sky
 
 NOTES
 
-Only works in lowercase with no punctuation
+Only works in lowercase, and punctuation must be part of the word (ie. "vy'keen" works but "Vykeen" will return nothing)
 
 Will default to returning the entire row of the word(s) you are trying to translate
 
