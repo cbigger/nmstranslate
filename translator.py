@@ -50,5 +50,6 @@ while (True):
     for word in sentence:
         try:
             print(csvone[csvone['English']==word].iloc[:,dialect])
-        except: print('Something went wrong! Send gizmo a DM.')
+        except: 
+            print('Something went wrong! Send gizmo a DM.')
             exit()
