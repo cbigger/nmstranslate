@@ -9,7 +9,7 @@ Will default to returning the entire row of the word(s) you are trying to transl
 
 Use the -i, -f, and -a flags to set translation mode to informal, formal, or ancient
 
-Repo includes a text rip of the table from the fandom wiki (just google "gek/korvax/vykeen language") which includes ~700 words translated into three different "dialects"
+Repo includes a text rip of the table from the fandom wiki (just google "gek/korvax/vykeen/atlas language") which includes ~700 words (~220 for the Atlas language) translated into three different "dialects"
 
 
 lowercase (aka informal)
