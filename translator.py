@@ -6,7 +6,7 @@ import argparse
 # default dialect is informal
 parser = argparse.ArgumentParser()
 parser.add_argument("LanguageFile", help="--> the path to the .txt file you want to use")
-parser.add_argument("-i","--informal", help="--> use the informal (lowercase) dialect (default)", action="store_true")
+parser.add_argument("-i","--informal", help="--> use the informal (lowercase) dialect", action="store_true")
 parser.add_argument("-f","--formal", help="--> use the formal (capitalized) dialect", action="store_true")
 parser.add_argument("-a","--ancient", help="--> search for an ancient (ALL-CAPS) translation", action="store_true")
 args = parser.parse_args()
