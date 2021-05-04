@@ -1,5 +1,5 @@
 import pandas as pd
-import csv, re, io, datetime, dateutil
+import csv, re, io
 import argparse
 
 # add a cli --help argument and a mandatory file argument, as well as flags for the diff dialects
