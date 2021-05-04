@@ -49,7 +49,11 @@ while (True):
     sentence = input("\nWhat would you like to translate? > ").split(" ")
     for word in sentence:
         try:
-            print(csvone[csvone['English']==word].iloc[:,dialect])
-        except: 
+            if csvone[csvone['English']==word].empty:
+                  print("\n"+word+" (NOT FOUND)")
+            else:
+                  print(csvone[csvone['English']==word].iloc[:,dialect])
+
+        except:
             print('Something went wrong! Send gizmo a DM.')
             exit()
