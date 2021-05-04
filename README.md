@@ -1,7 +1,7 @@
 # nmstranslate
 Python3 command-line translator for the various languages in No Man's Sky
 
-Repo includes a text rip of the table from the fandom wiki (just google "gek/korvax/vykeen language") which includes ~700 words translated into three different "dialects":
+Repo includes a text rip of the table from the fandom wiki (just google "gek/korvax/vykeen language") which includes ~700 words translated into three different "dialects"
 
 lowercase (aka informal)
 Capitalized (aka formal) 
