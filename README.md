@@ -27,7 +27,7 @@ USAGE
 
   python3 translator.py [OPTIONS] /path/to/LanguageFile.txt
 
-EXAMPLE
+EXAMPLE (view raw for actual output example as I have no clue how tf to format for githubs stupid readme parser)
 
 $ python3 translator.py korvax.txt 
 
